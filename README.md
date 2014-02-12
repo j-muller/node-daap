@@ -1,6 +1,8 @@
 node-daap
 =========
 
+[![NPM](https://nodei.co/npm/daap.png)](https://nodei.co/npm/daap/)
+
 node-daap is a Node.js helper library for [Apple DAAP](http://en.wikipedia.org/wiki/Digital_Audio_Access_Protocol "Apple DAAP") protocol. DAAP protocol has been built over HTTP. Apple doesn't provide a proper documentation for his protocol, that's why it is difficult to get some efficient information about the protocol. Almost all of the work that has been done, has been made by sniffing the network between my computer and [official Apple Remote app](https://itunes.apple.com/fr/app/remote/id284417350?mt=8). I will update the documentation as soon as I have some new information.
 
 The library uses [request](https://github.com/mikeal/request "Node Request") to handle some interaction between user and iTunes.  It has been designed to be as easiest as possible to use !
