@@ -1,0 +1,19 @@
+{
+    "name": "daap",
+    "version": "0.1.0",
+    "description": "A helper library for Apple DAAP protocol",
+    "author": "Jeffrey Muller <jeffrey.muller92@gmail.com>",
+    "contributors": [],
+    "dependencies": {
+        "bigint": ">=0.4.2",
+        "request": ">=2.33.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/j-muller/node-daap.git"
+    },
+    "bugs": {
+        "url": "https://github.com/j-muller/node-daap/issues"
+    },
+    "main": "./lib/daap.js"
+}
