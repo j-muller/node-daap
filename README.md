@@ -11,7 +11,7 @@ The library uses [request](https://github.com/mikeal/request "Node Request") to 
 
 * __host__ : IP address or domain name where iTunes is located ;
 * __port__ : Port which iTunes uses _(default : 3689)_
-* __pairingCode__ : pairing code used to connect to iTunes the first time. I will provide a tool with a proper documentation, soon.
+* __pairingCode__ : pairing code used to connect to iTunes the first time. You can get a proper pairing code using this tool : [PairingJS](https://github.com/j-muller/PairingJS). Please send me your question about this tool.
 
 ###Implementation
 
