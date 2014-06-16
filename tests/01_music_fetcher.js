@@ -10,7 +10,7 @@ console.log('Make sure iTunes is ready.');
 /* Edit these if needed */
 daap.host = '127.0.0.1';
 daap.port = 3689;
-daap.pairingCode = '0x98525F88D21A6218';
+daap.pairingCode = '0x5D73103827379243';
 
 var sessionId = null;
 var databaseId = null;

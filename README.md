@@ -90,6 +90,18 @@ Here are the methods which are currently in node-daap.
   - __databaseId__ : Database ID get from the _databases_ request.
   - __songId__ : Song ID get from the _items_ request.
 
+####playPause
+
+- __Description__ : Play/pause iTunes current song.
+- __Parameters__ :
+  - __sessionId__ : Session token get from the _login_ request.
+
+####playStatusUpdate
+
+- __Description__ : Get information for the current iTunes song.
+- __Parameters__ :
+  - __sessionId__ : Session token get from the _login_ request.
+
 ###Testing
 
 Every methods have been tested using [Nodeunit](https://github.com/caolan/nodeunit). You can try yourself and get some examples in the "_tests_" directory.

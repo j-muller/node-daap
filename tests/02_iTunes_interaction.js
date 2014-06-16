@@ -10,7 +10,7 @@ console.log('Make sure iTunes is ready.');
 /* Edit these if needed */
 daap.host        = '127.0.0.1';
 daap.port        = 3689;
-daap.pairingCode = '0x98525F88D21A6218';
+daap.pairingCode = '0x5D73103827379243';
 
 var sessionId    = null;
 var databaseId   = null;
@@ -87,6 +87,26 @@ exports.artwork = function (test) {
     daap.artwork(sessionId, databaseId, songId, function(error, response) {
         test.strictEqual(error, null);
         test.strictEqual(typeof response, 'object');
+        test.done();
+    });
+};
+
+exports.playPause = function (test) {
+    test.notStrictEqual(sessionId, null);
+
+    daap.playPause(sessionId, function (error, response) {
+        test.strictEqual(error, null);
+        test.strictEqual(typeof response, 'object');        
+        test.done();
+    });
+};
+
+exports.playStatusUpdate = function (test) {
+    test.notStrictEqual(sessionId, null);
+
+    daap.playStatusUpdate(sessionId, function (error, response) {
+        test.strictEqual(error, null);
+        test.strictEqual(typeof response, 'object');        
         test.done();
     });
 };
