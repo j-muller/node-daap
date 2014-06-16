@@ -1,6 +1,6 @@
 {
     "name": "daap",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A helper library for Apple DAAP protocol",
     "author": "Jeffrey Muller <jeffrey.muller92@gmail.com>",
     "contributors": [],
